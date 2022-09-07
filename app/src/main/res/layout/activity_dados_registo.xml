@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d313c"
+    tools:context=".DadosRegistoActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="52dp"
+        android:text="Número do Registro"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <TextView
+        android:id="@+id/textViewSexo"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="96dp"
+        android:text="Sexo"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewSexo" />
+
+    <TextView
+        android:id="@+id/textViewInformacoesFisicas"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Informações Fisicas"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewInformacoesFisicas" />
+
+    <TextView
+        android:id="@+id/textViewFaixaEtaria"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Faixa etária"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewFaixaEtaria" />
+
+    <TextView
+        android:id="@+id/textViewRoupas"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="52dp"
+        android:text="Informações das roupas"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText3"
+        tools:layout_editor_absoluteX="16dp" />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewRoupas" />
+
+    <TextView
+        android:id="@+id/textViewLocalEncontrado"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Local que foi encontrado"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText4"
+        tools:layout_editor_absoluteX="16dp" />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewLocalEncontrado" />
+
+    <TextView
+        android:id="@+id/textViewUploadImg"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Upload imagem"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText5"
+        tools:layout_editor_absoluteX="16dp" />
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewUploadImg" />
+
+    <TextView
+        android:id="@+id/textViewLocalizacaoAtual"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Upload imagem"
+        android:textColor="#a9a9a9"
+        app:layout_constraintTop_toTopOf="@+id/editText6"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="8dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewLocalizacaoAtual" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#3e5a8f"
+        android:text="Voltar"
+        android:textColor="#a9a9a9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText7" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#3e5a8f"
+        android:text="Salvar"
+        android:textColor="#a9a9a9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
